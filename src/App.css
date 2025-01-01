@@ -1,0 +1,66 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 100vh;
+gap: 20px;
+  overflow: hidden;
+  padding: 10px;
+ 
+}
+
+#maya{
+  height: 70%;
+ 
+ 
+}
+
+span{
+  color: transparent;
+  font-size: 2vmax;
+  background: linear-gradient(to right, rgb(0, 225, 255),rgb(221, 0, 255));
+  background-clip: text;
+  font-weight: bold;
+}
+
+button{
+  width: 180px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(79, 224, 234);
+  gap : 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.5vmax;
+  box-shadow: 2px 2px 50px  rgb(79, 224, 234);
+  cursor: pointer;
+  
+
+}
+
+#speak{
+
+  height: 80px;
+}
+
+p{
+  color: white;
+  font-size: 1.5vmax;
+  padding: 0px 40px;
+  text-align: center;
+}
+
+.response{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#aigif{
+  height: 80px;
+  width: 50vh;
+}
